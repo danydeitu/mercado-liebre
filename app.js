@@ -2,11 +2,12 @@ const express=require('express');
 const app=express();
 const path=require('path');
 const port=3030
+const publicFolderPath=path.resolve(__dirname, './public');
 
-app.use(express.static('public'));
+app.use(express.static(publicFolderPath));
 
 app.get('/',(req,res)=>
-    res.sendFile(path.join(__dirname,'views','home.html')));
+    res.sendFile(path.resolve(__dirname, './views/home.html')));
 
   /*  app.get('/',Ofertas,(req,res)=>
     res.sendFile(path.join(__dirname,'views','Ofertas.html')));
@@ -18,4 +19,4 @@ app.get('/',Ayuda,(req,res)=>
     res.sendFile(path.join(__dirname,'views','Ayuda.html')));*/
 
 app.listen(port,()=>{
-    console.log('servidor corriendo en http://localhost:${port}')});
+    console.log(`servidor corriendo en http://localhost:${port}`)});

@@ -1,0 +1,46 @@
+
+body{
+    background-color:#EAC926;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+   
+}
+
+.h2{
+ font-size:24px;
+}
+.h3{
+    font: size 18px;
+}
+.p{
+    font-size: 16px;
+}
+.b{
+    font-size: 16px;
+}
+footer{
+    text-align: center;
+    background-color: #ebebeb;
+ color:  #666;
+
+  
+}
+
+.desplegable{
+       font-size: 2em;
+    color: #1259C3;
+   }
+.burguer{
+    font-size: 3em;
+    
+    color: #03264C;
+}
+
+   
+
+   
+
+
+
+    
+
