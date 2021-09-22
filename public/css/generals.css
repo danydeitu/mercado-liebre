@@ -1,0 +1,43 @@
+*{
+    font-family:'Reboto',sans-serif;
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+body{
+font-size: 12px;}
+
+input, button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    cursor:pointer;
+}
+
+.btn-verde{
+    background-color: var(--Verde);
+}
+
+.btn-celeste{
+    background-color: var(--Celeste);}
+
+    .btn-amarillo{
+        background-color: var(--Amarillo);
+}
+main{
+    text-align: center;
+}
+main input{
+    text-align: center;
+}
+/*variables*/
+:root{
+    --Amarillo:#eac926;
+    --Azul:#03264c;
+    --Celeste:#1259c3;
+    --GrisOscuro:#666;
+    --GrisClaro:lightgray;
+    --Verde:#39b54a;
+}
