@@ -12,26 +12,42 @@ input, button {
     border: none;
     border-radius: 5px;
 }
+
+/*botones registro*/
+
 button:hover{
     cursor:pointer;
 }
 
 .btn-verde{
     background-color: var(--Verde);
+    transition: background-color linear .3s;
 }
 
 .btn-celeste{
     background-color: var(--Celeste);}
 
+/*botones ingresar*/
     .btn-amarillo{
         background-color: var(--Amarillo);
-}
+        transition: background-color linear .3s;}
+
+        .btn-amarillo:hover{
+background-color: var(--AzulClaro);
+        }
+
 main{
     text-align: center;
 }
 main input{
     text-align: center;
 }
+.btn-verde:hover{
+    background-color:(var--AzulClaro);
+
+}
+
+
 /*variables*/
 :root{
     --Amarillo:#eac926;
@@ -40,4 +56,6 @@ main input{
     --GrisOscuro:#666;
     --GrisClaro:lightgray;
     --Verde:#39b54a;
+    --AzulClaro:#0022aa;
 }
+
