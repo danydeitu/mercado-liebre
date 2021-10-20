@@ -180,7 +180,7 @@ main section article .descripcion i {
 
 main section article:hover .descripcion i {
     box-shadow: 0 0 5px var(--Verde);
-    transform: rotate(90deg);
+    transform: rotate(180deg);
 }
 
 .main section article .descripcion {
@@ -260,8 +260,13 @@ main section article:hover {
         text-decoration: none;
     }
     .login ul a {
-        font-size: 16px;
-    }
+        font-size: 16px;}
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+    
     main section article {
         width: 46%;
     }
@@ -269,6 +274,9 @@ main section article:hover {
         position: relative;
         display: flex;
     }
+    div.descripcion {
+        border-top: 1px solid #ebebeb;
+        display: flex;}
     main section article .descripcion i {
         display: block;
         background: #ffffff;
@@ -284,8 +292,8 @@ main section article:hover {
         top: -15px;
         transition: all ease .3s;
     }
-}
 
+    }
 /**desktop**/
 
 @media(min-width:769px) {

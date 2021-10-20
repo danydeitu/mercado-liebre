@@ -5,6 +5,7 @@
     margin: 0 auto;
     max-width: 375px;
     background-color:var(--GrisClaro);
+
 }
 
 /* contenedor input*/
@@ -12,6 +13,8 @@
 .contenedor .container-input {
     display: flex;
     margin: 20px 0;
+    text-align: center;
+    justify-content: center;
 }
 
 /*input*/
@@ -25,4 +28,5 @@
 .contenedor .container-input .radio{
     margin:0 20px;
 }
+
 

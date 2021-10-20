@@ -61,33 +61,37 @@
     </header>
     <main>
         <div class="contenedor">
+        
             <form action="/registro" method="POST">
 
                 <!--full name-->
+                <label>Nombre y Apellido</label>
                 <div class="container-input">
 
-                    <lebel>Nombre Completo:
                     <input type="text" placeholder="Nombre y Apellido" name="fullName" minlength="5">
-                </lebel></div>
+                </div>
                 <!--userName-->
+                <label>Nombre de usuari@</label>
                 <div class="container-input">
-                    <LEBEL>Nombre de Usurio:
+                   
                     <input type="text" placeholder="Nombre de usuari@" name="userName" minlength="4">
-                </lebel></div>
+            </div>
 
                 <!--nacimiento-->
-                <h3>Fecha de nacimiento</h3>
+                <label>Fecha de nacimiento</label>
                 <div class="container-input">
+                
 
                     <input type="date" name="date">
                 </div>
                 <!--domicilio-->
+                <label>Domicilio</label>
                 <div class="container-input">
-                    <label>Domicilio:
+                   
                     <input type="text" placeholder="Domicilio" name="domicilio" maxlength="15">
-                </lebel></div>
+                </div>
                 <!--Perfiles-->
-                <h3>Perfil de Usuario</h3>
+                <label>Perfil de Usuario</label>
                 <div class="container-input">
 
                     <input class="radio" type="radio" name="Perfil" value="comprador" id="comprador">
@@ -97,7 +101,7 @@
                     <label for="vendedor">Vendedor</label>
                 </div>
                 <!--Intereses-->
-                <h3>Intereses</h3>
+                <label>Intereses</label>
                 <div class="container-input">
                     <input type="checkbox" name="intereses" value="electro" id="electro">
                     <label for="electro">Electro</label>
@@ -123,20 +127,20 @@
                     <label for="vida sana">Vida Sana</label>
                 </div>
                 <!--Foto de Perfil-->
-                <h3>Foto de Perfil</h3>
+                <label>Foto de Perfil</label>
                 <div class="container-input">
                     <input type="file" name="img">
                 </div>
                 <!--contraseña-->
+                <label>Contaseña</label>
                 <div class="container-input">
-                    <label>Contraseña
                     <input type="password" name="pass" placeholder="contraseña" minlength="8">
-                </lebel></div>
-
+                </div>
+                <label>Repetir Contaseña</label>
                 <div class="container-input">
-                    <label>Repetir Contraseña
+                    
                     <input type="password" name="repeat-pass" placeholder="repetir contraseña">
-                </lebel></div>
+            </div>
 
                 <!--botones-->
                 <div class="container-butons">
