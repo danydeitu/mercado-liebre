@@ -18,5 +18,8 @@ app.get('/',(req,res)=>
 app.get('/',Ayuda,(req,res)=>
     res.sendFile(path.join(__dirname,'views','Ayuda.html')));*/
 
-app.listen(port,()=>{
-    console.log(`servidor corriendo en http://localhost:${port}`)});
+/*app.listen(port,()=>{
+    console.log(`servidor corriendo en http://localhost:${port}`)});*/
+
+    app.listen(process.env.PORT)|| 3000,function() {
+        console.log(`servidor corriendo en el puerto 3000`)};
