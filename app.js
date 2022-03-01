@@ -1,7 +1,7 @@
 const express=require('express');
 const app=express();
 const path=require('path');
-const port=3030
+const port=3000
 const publicFolderPath=path.resolve(__dirname, './public');
 
 app.use(express.static(publicFolderPath));
@@ -14,12 +14,16 @@ app.get('/',(req,res)=>
 
     app.get('/login',(req,res)=>
     res.sendFile(path.join(__dirname,'views','login.html')));   
-/*
+  
+    const PORT = process.env.PORT || 5000;
+app.listen(PORT);
+
+    /*
 app.get('/',Ayuda,(req,res)=>
     res.sendFile(path.join(__dirname,'views','Ayuda.html')));*/
 
 /*app.listen(port,()=>{
     console.log(`servidor corriendo en http://localhost:${port}`)});*/
 
-    app.listen(process.env.PORT)|| 3000,function() {
-        console.log(`servidor corriendo en el puerto 3000`)};
+    //app.listen(process.env.PORT)|| 3000,function() {
+        //console.log(`servidor corriendo en el puerto 3000`)};
