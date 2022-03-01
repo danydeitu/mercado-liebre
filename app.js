@@ -1,7 +1,7 @@
 const express=require('express');
 const app=express();
 const path=require('path');
-const port=3000
+const port=80
 const publicFolderPath=path.resolve(__dirname, './public');
 
 app.use(express.static(publicFolderPath));
@@ -15,7 +15,7 @@ app.get('/',(req,res)=>
     app.get('/login',(req,res)=>
     res.sendFile(path.join(__dirname,'views','login.html')));   
   
-    const PORT = process.env.PORT || 5000;
+    const PORT = process.env.PORT || 80;
 app.listen(PORT);
 
     /*
