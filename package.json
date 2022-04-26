@@ -1,13 +1,13 @@
 {
-  "homepage": "https://danydeitu.githab.io/Mercado-Liebre",
+  "homepage": "https://github.com/danydeitu/Mercado-Liebre",
   "name": "mercado-liebre",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "scripts": {
+  "scripts1": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-  
+    "start": "node app.js"},
+    "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
