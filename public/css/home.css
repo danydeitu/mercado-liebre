@@ -27,13 +27,14 @@ header {
     font-size: 20px;
     margin: 0 0 0 5px;
     width: 50%;
+    padding: 0px;
     align-content: stretch;
 }
 
 .search i {
     font-size: 20px;
     background-color: white;
-    padding: 8px;
+    padding: 5px;
     border-bottom-color: white;
     margin-bottom: auto;
     text-align: left;
@@ -87,6 +88,8 @@ header nav .navega ul {
     align-items: stretch;
     flex-direction: row;
     justify-content: space-between;
+    border: 10px;
+    
 }
 
 header nav .login ul {
@@ -105,6 +108,7 @@ header nav .login ul {
     font-size: 16px;
     margin: 0px;
 }
+
 
 /*main*/
 
@@ -161,6 +165,7 @@ article {
     border: solid #ebebeb 15px;
     padding: 0;
 }
+
 
 main section article .descripcion i {
     display: none;
@@ -245,7 +250,13 @@ main section article:hover {
     }
     .logo {
         width: 200px;
+        
     }
+    header .nav-menu {
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        }
     header nav .navega {
         display: flex;
         justify-content: space-between;
@@ -326,18 +337,21 @@ main section article:hover {
     display: flex;
     align-items: stretch;
     justify-content: space-between;
+    margin:auto;
     }
     .navega ul a {
         list-style: none;
         text-decoration: none;
         color: black;
-        font-size: 25px;
+        font-size: 20px;
+        margin:auto;
+   
     }
     .login ul a {
         color: black;
         list-style: none;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 20px;
     }
     .burguer-menu {
         display: none;

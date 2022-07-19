@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "express": "^4.17.1"
   },
   "engines": {
@@ -19,5 +20,9 @@
   },
   "devDependencies": {
    
+=======
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+>>>>>>> fc5f7a03da7c30f89ab705f4e55437ec69682a82
   }
 }
