@@ -5,12 +5,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-<<<<<<< HEAD
     "start": " node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-=======
-    "start": "node app.js"
->>>>>>> bb5ef8bc409730d6a3be6446f13d1f92dce9e891
   },
 
   "author": "",
