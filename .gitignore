@@ -1,2 +1,8 @@
 node_modules
+<<<<<<< HEAD
 package-lock.json
+=======
+packcage-lock.json
+
+.vercel
+>>>>>>> bb5ef8bc409730d6a3be6446f13d1f92dce9e891

@@ -1,16 +1,28 @@
 {
+  "homepage": "https://danydeitu.github.io/Mercado-Liebre/",
   "name": "mercado-liebre",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
+<<<<<<< HEAD
     "start": " node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+=======
+    "start": "node app.js"
+>>>>>>> bb5ef8bc409730d6a3be6446f13d1f92dce9e891
   },
+
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.15"
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "8.11.3",
+    "npm": "6.4.1"
+  },
+  "devDependencies": {
+   
   }
 }
