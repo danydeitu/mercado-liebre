@@ -1,7 +1,7 @@
 const express=require('express');
 const app=express();
 const path=require('path');
-const port=3030
+const Port= process.env.Port || 3030
 const publicFolderPath=path.resolve(__dirname, './public');
 
 app.use(express.static(publicFolderPath));
@@ -17,6 +17,7 @@ app.get('/',(req,res)=>
 /*
 app.get('/',Ayuda,(req,res)=>
     res.sendFile(path.join(__dirname,'views','Ayuda.html')));*/
+    
 
 app.listen(port,()=>{
-    console.log(`servidor corriendo en http://localhost:${port}`)});
+    console.log(`servidor corriendo en el puerto`),Port});
