@@ -1,11 +1,12 @@
 {
-  "homepage": "https://danydeitu.github.io/Mercado-Liebre/",
+ 
   "name": "mercado-liebre",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +17,17 @@
   "engines": {
     "node": "8.11.3",
     "npm": "6.4.1"
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danydeitu/Mercado-Liebre.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/danydeitu/Mercado-Liebre/issues"
+  },
+  "description": ""
 }
