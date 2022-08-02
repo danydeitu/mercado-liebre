@@ -4,9 +4,14 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "node app.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+=======
+    "start": " node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> 2fbb0a5c7351723db10286d2017fb512130041a1
   },
   "author": "",
   "license": "ISC",
