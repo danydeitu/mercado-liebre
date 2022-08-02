@@ -2,6 +2,7 @@ const express=require('express');r
 const app=express();
 const path=require('path');
 const publicFolderPath=path.resolve(__dirname, './public');
+
 app.get('/',(req,res)=>
     res.sendFile(path.resolve(__dirname, './views/home.html')));
 
@@ -16,8 +17,7 @@ app.listen(process.env.PORT || 3000 , function() {
     console.log(`Servidor corriendo en puerto 3000`);
 })
 
-/*app.get('/',Ayuda,(req,res)=>
-    res.sendFile(path.join(__dirname,'views','Ayuda.html')));*/
+
     
 
 <<<<<<< HEAD
