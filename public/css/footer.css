@@ -1,10 +1,12 @@
 
     /*footer*/ 
     body footer {
+      
         text-align: center;
         color: #666;
-        font-size: 16px;
-        margin-bottom: 60px;
+        font-size: 12px;
+        margin-bottom: none;
+    
     }
     
     body footer i {
@@ -14,7 +16,7 @@
     }
 footer section p{
     text-align: left;
-     ;
+    
 }
 
 

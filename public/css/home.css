@@ -35,7 +35,7 @@ header {
 .search i {
     font-size: 20px;
     background-color: white;
-    padding: 10px;
+    padding:9px;
     border-bottom-color: white;
     margin-bottom: auto;
     text-align: left;
@@ -46,7 +46,7 @@ header {
 .copy {
     font-weight: 50px;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
     margin: 0px;
     justify-items: center;
 }
@@ -285,11 +285,11 @@ main section article:hover {
     
     
     .navega a {
-        font-size: 16px;
+        font-size: 12px;
         text-decoration: none;
     }
     .login ul a {
-        font-size: 16px;}
+        font-size: 12px;}
         .nav{
             display: flex;
             justify-content: space-between;
@@ -309,7 +309,7 @@ main section article:hover {
     main section article .descripcion i {
         display: block;
         background: #ffffff;
-        font-size: 16px;
+        font-size: 14px;
         padding: 5px;
         width: 30px;
         height: 30px;
